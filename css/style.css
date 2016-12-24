@@ -782,8 +782,16 @@ td.cd_top{
 #form {
 	text-align: center;
 }
-.iframe-form {
-	width:100%;
-	height:100%;
+div.iframe-form {
+position: relative;
+width: 100%;
+padding-top: 75%;
+}
+div.iframe-form iframe {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
 }
 
