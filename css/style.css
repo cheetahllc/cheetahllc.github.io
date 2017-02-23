@@ -18,7 +18,7 @@ body {
 }
 /*トップページの背景画像*/
 body#top {
-	background: #fff url(../images/mainimg_s.jpg) no-repeat right top;	/*古い端末用*/
+	background: #fff url(../images/cheetah.jpg) no-repeat right top;	/*古い端末用*/
 	/*background: #fff url(../images/mainimg_l.jpg) no-repeat right top/60%;	/*背景色、背景画像の読み込み、リピートしない、右上に配置、画面に対して60%のサイズで表示*/
     background: #000 url(../images/cheetah.jpg) no-repeat top/80%;
 }
