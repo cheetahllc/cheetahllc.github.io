@@ -18,7 +18,7 @@ $(function(){
 		var href= $(this).attr("href");
 		var target = $(href == "#" || href == "" ? 'html' : href);
 		var position = target.offset().top;
-		$("body, html").animate({scrollTop:position}, speed, "swing");
+		$("html, body").animate({scrollTop:position}, speed, "swing");
 		return false;
 	});
 });
@@ -33,18 +33,19 @@ $(function(){
 
 <header>
 <div class="inner">
+
 <!--PC用メニュー-->
 <nav id="menubar">
 <ul>
-<li><a href="#top">HOME</a></li>
-<li><a href="#company">COMPANY</a></li>
-<li><a href="#contact">CONTACT</a></li>
+  <li><a href="#top">HOME</a></li>
+  <li><a href="#company">COMPANY</a></li>
+  <li><a href="#contact">CONTACT</a></li>
 </ul>
 </nav>
 <!--スマホ用メニュー-->
 <nav id="menubar-s">
 <ul>
-<li><a href="#">HOME</a></li>
+<li><a href="#top">HOME</a></li>
 <li><a href="#company">COMPANY</a></li>
 <li><a href="#contact">CONTACT</a></li>
 </ul>
@@ -101,7 +102,6 @@ $(function(){
         </tr>
     </table>
 </div>
-
 <div>
     <h2 id="contact">コンタクト</h2>
 		<div class="iframe-form">
@@ -130,4 +130,3 @@ if (OCwindowWidth() <= 800) {
 }
 </script>
 </body>
-</html>
