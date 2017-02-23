@@ -3,24 +3,15 @@
 <head>
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<title>SNS簡単投稿 - 特定商取引法に基づく表示</title>
+<title>合同会社CheeTah</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="簡単投稿">
+<meta name="keywords" content="合同会社CheeTah,簡単投稿">
 <link rel="stylesheet" href="css/style.css">
 <script type="text/javascript" src="js/openclose.js"></script>
 <script type="text/javascript" src="ddmenu_min.js"></script>
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-<script type="text/javascript">
-$(function(){
-	$('a[href^=#]').click(function(){
-		var speed = 500;
-		var href= $(this).attr("href");
-		var target = $(href == "#" || href == "" ? 'html' : href);
-		var position = target.offset().top;
-		$("html, body").animate({scrollTop:position}, speed, "swing");
-		return false;
-	});
-});
-</script>
+
 <!--[if lt IE 9]>
 <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
 <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
@@ -30,10 +21,10 @@ $(function(){
 <body>
 
 
-
 <div class="contents bg1">
 <div class="inner">
 
+<section id="new">
 <h2 id="newinfo_hdr" class="close">特定商取引法に基づく表示</h2>
 
 <div id="company">
@@ -81,8 +72,6 @@ $(function(){
 	</tr>
     </table>
 </div>
-<div>
-</div>
 <br><br><br><br><br><br>
 <br><br><br><br><br><br>
 <br><br><br><br><br><br>
@@ -97,13 +86,5 @@ $(function(){
 <span class="pr"><a href="http://template-party.com/" target="_blank">Web Design:Template-Party</a></span>
 </footer>
 
-<!--メニューの３本バー-->
-<div id="menubar_hdr" class="close"><span></span><span></span><span></span></div>
-<!--メニューの開閉処理条件設定　480px以下-->
-<script type="text/javascript">
-if (OCwindowWidth() <= 800) {
-	open_close("menubar_hdr", "menubar-s");
-}
-</script>
 </body>
 </html>
